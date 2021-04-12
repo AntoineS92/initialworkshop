@@ -1,0 +1,31 @@
+/* TABLE */
+
+table {
+    border: 1px solid;
+    border-color: black;
+}
+
+.black {
+    border: 1px solid black;
+}
+
+.red {
+    border: 1px solid red;
+}
+
+/* end of table */
+
+/* complex table */
+
+#complextable {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#complextable td {
+    border: 1px solid black;
+}
+
+th {
+    border: 1px solid black;
+}

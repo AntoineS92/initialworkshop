@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<head lang="en">
+    <title>intial workshop</title>
+    <meta charset="UTF-8" >
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <section id="iteration1">
+       <h1>Iteration 1 - inline vs block elements</h1>
+       <p>Write a paragraph containing some span or em tags of <span style="color:orange">different colors</span>. Spans are inline elements, meaning that their
+        <span style="color: red; font-style: italic;">default</span> display property value is <span style="font-style: italic; color: green;">inline</span>. Those elements will follow the <span style="color: orange; font-style: italic;">horizontal</span> flow of a document. <span style="color: red;">Inline elements</span>
+        go next to another inline element so you <span style="color: green; font-weight: bold;">won't</span> have any line break until you decide do insert one (like here with a br
+        tag). <br> 
+        Images are inline element too ! <img src="img/any-image.jpg" alt="any image"> That's a simple but <span style="color: orange; font-weight: bold;">super important</span> point to remember ! Feel free to dif deeper with the <span style="color: lightblue;"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements">MDN doc</a></span>.</p>
+    </section>
+
+    <section id="iteration2">
+        <h1>Iteration 2 - Simple list</h1>
+        <ol>
+            <li>Open Visual Studio Code</li>
+            <li>Laucnh a terminal Window</li>
+            <li>Open your browser</li>
+            <li>open devtools</li>
+            <li>start coding awesome apps</li>
+        </ol>
+    </section>
+
+    <section id="iteration3">
+        <h1>Iteration 3 - Simple Table</h1>
+        <table>
+            <tbody>
+                <tr>
+                    <td class="black">Ace</td>
+                    <td class="red">Diamond</td>
+                </tr>
+                <tr>
+                    <td class="red">Heart</td>
+                    <td class="black">Spade</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="iteration4">
+        <h1>iteration 4 - Nested list</h1>
+        <ol>
+            <li>level 1.1</li>
+            <li>level 1.2
+                <ul>
+                    <li>level 2.1
+                        <ol>
+                            <li>level 3.1</li>
+                            <li>level 3.2</li>
+                            <li>level 3.3</li>
+                        </ol>    
+                    </li>
+                    <li>level 2.2</li>
+                    <li>level 2.3</li>
+                </ul>
+            </li>
+            <li>level 1.3</li>
+        </ol>
+    </section>
+
+    <section id="bonus1">
+        <h1>Bonus 1 - A more complex table</h1>
+
+        <table id="complextable">
+            <thead>
+                <tr>
+                    <th colspan="2"></th>
+                    <th colspan="2">First group</th>
+                    <th colspan="2">Second group</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td>Person</td>
+                    <td>Singular</td>
+                    <td>Plural</td>
+                    <td>Singular</td>
+                    <td>Plural</td>
+                </tr>
+
+                <tr>
+                    <td rowspan="3">present</td>
+                    <td>1</td>
+                    <td>i code</td>
+                    <td>we code</td>
+                    <td>I succeed</td>
+                    <td>we succeed</td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>you code</td>
+                    <td>they code</td>
+                    <td>you succeed</td>
+                    <td>they succeed</td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>he/she code</td>
+                    <td>they code</td>
+                    <td>he/she succeed</td>
+                    <td>they succed</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="bonus2">
+        <h1>Bonus 2 - Video</h1>
+        <video width="320" height="240" autoplay muted controls>
+            <source src="img/Mountains - 61818.mp4" type="video/mp4">
+            <source src="img/Mountains - 61818.webm" type="video/webm">
+          </video>
+    </section>
+
+    <section id="bonus3">
+        <h1>Bonus 3 - Audio</h1>
+
+        <audio controls>
+            <source src="medias/Sapajou-Intencion.mp3" type="audio/mp3">
+            <source src="medias/Sapajou-Intencion.webm" type="audio/webm">
+          </audio>
+    </section>
+</body>
